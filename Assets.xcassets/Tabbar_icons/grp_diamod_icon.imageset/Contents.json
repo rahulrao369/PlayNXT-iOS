@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "grp_diamod_icon.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

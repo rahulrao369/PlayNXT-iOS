@@ -1,0 +1,984 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3103D56428375A8D009B1EE2 /* DiscoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3103D56328375A8D009B1EE2 /* DiscoverVC.swift */; };
+		3103D56628375D05009B1EE2 /* Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3103D56528375D05009B1EE2 /* Structure.swift */; };
+		3103D5682837641B009B1EE2 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3103D5672837641B009B1EE2 /* HomeVC.swift */; };
+		3103DEDB28377A14002558C7 /* ActivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3103DEDA28377A14002558C7 /* ActivityVC.swift */; };
+		3103DEDD28377EB4002558C7 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3103DEDC28377EB4002558C7 /* Extension.swift */; };
+		3103DEDF28379114002558C7 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3103DEDE28379113002558C7 /* Nunito-SemiBold.ttf */; };
+		3103DEE12837911D002558C7 /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3103DEE02837911D002558C7 /* Nunito-Medium.ttf */; };
+		3103DEE32837A538002558C7 /* InboxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3103DEE22837A538002558C7 /* InboxVC.swift */; };
+		310ABC0E283D0B6C0009BF37 /* AddEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310ABC0D283D0B6C0009BF37 /* AddEventVC.swift */; };
+		31232C2B2849E91000C97472 /* SearchHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31232C292849E91000C97472 /* SearchHeaderCell.swift */; };
+		31232C2C2849E91000C97472 /* SearchHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31232C2A2849E91000C97472 /* SearchHeaderCell.xib */; };
+		31233E26283CD66D00895E08 /* XboxGameInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31233E25283CD66D00895E08 /* XboxGameInfoVC.swift */; };
+		31233E28283CE03600895E08 /* PopupEnterNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31233E27283CE03600895E08 /* PopupEnterNotes.swift */; };
+		31233E2A283CE04700895E08 /* PopupSelectStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31233E29283CE04700895E08 /* PopupSelectStatus.swift */; };
+		31233E2C283CEE6100895E08 /* WishlistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31233E2B283CEE6100895E08 /* WishlistVC.swift */; };
+		31233E2E283CEF0500895E08 /* PopupAddWishlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31233E2D283CEF0500895E08 /* PopupAddWishlist.swift */; };
+		31233E30283CEF7F00895E08 /* WishListXboxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31233E2F283CEF7F00895E08 /* WishListXboxVC.swift */; };
+		31233E32283CF59200895E08 /* CalenderViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31233E31283CF59200895E08 /* CalenderViewVC.swift */; };
+		312D80442838FC3B004C127E /* AddGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312D80432838FC3B004C127E /* AddGameVC.swift */; };
+		313E5081283DFAE800248FD3 /* PopupImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313E5080283DFAE800248FD3 /* PopupImageVC.swift */; };
+		315594162846148700EDFDCE /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315594152846148700EDFDCE /* SessionManager.swift */; };
+		31559418284614D500EDFDCE /* TokenClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31559417284614D400EDFDCE /* TokenClass.swift */; };
+		3155941A28461EA400EDFDCE /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3155941928461EA400EDFDCE /* Constant.swift */; };
+		3155941C284621AF00EDFDCE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3155941B284621AF00EDFDCE /* Model.swift */; };
+		315A4A6D2838D0CD00143B5A /* SurveyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315A4A6C2838D0CD00143B5A /* SurveyVC.swift */; };
+		315A4A6F2838E5C900143B5A /* EditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315A4A6E2838E5C900143B5A /* EditVC.swift */; };
+		316A9AAD283619D60056AA33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316A9AAC283619D60056AA33 /* AppDelegate.swift */; };
+		316A9AAF283619D60056AA33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316A9AAE283619D60056AA33 /* SceneDelegate.swift */; };
+		316A9AB1283619D60056AA33 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316A9AB0283619D60056AA33 /* BaseVC.swift */; };
+		316A9AB4283619D60056AA33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316A9AB2283619D60056AA33 /* Main.storyboard */; };
+		316A9AB6283619DD0056AA33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316A9AB5283619DD0056AA33 /* Assets.xcassets */; };
+		316A9AB9283619DD0056AA33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316A9AB7283619DD0056AA33 /* LaunchScreen.storyboard */; };
+		316A9AC72836288E0056AA33 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 316A9AC42836288E0056AA33 /* Nunito-Bold.ttf */; };
+		316A9AC82836288E0056AA33 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 316A9AC52836288E0056AA33 /* Nunito-Regular.ttf */; };
+		316A9AC92836288E0056AA33 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 316A9AC62836288E0056AA33 /* Nunito-Light.ttf */; };
+		316A9ACE283629E60056AA33 /* Designable .swift in Sources */ = {isa = PBXBuildFile; fileRef = 316A9ACD283629E60056AA33 /* Designable .swift */; };
+		316A9AD228362F7A0056AA33 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 316A9AD128362F7A0056AA33 /* Nunito-ExtraBold.ttf */; };
+		316A9AD428363E8C0056AA33 /* BentonSans Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 316A9AD328363E8C0056AA33 /* BentonSans Regular.otf */; };
+		316A9AD7283655AC0056AA33 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316A9AD6283655AC0056AA33 /* LoginVC.swift */; };
+		316A9AD9283655D20056AA33 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316A9AD8283655D20056AA33 /* SignupVC.swift */; };
+		316A9AE128365AE80056AA33 /* Tab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316A9AE028365AE80056AA33 /* Tab.storyboard */; };
+		316A9AE728365B260056AA33 /* BubbleTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316A9AE328365B260056AA33 /* BubbleTabBar.swift */; };
+		316A9AE828365B260056AA33 /* BubbleTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316A9AE428365B260056AA33 /* BubbleTabBarController.swift */; };
+		316A9AE928365B260056AA33 /* BubbleSecondTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316A9AE528365B260056AA33 /* BubbleSecondTabBarController.swift */; };
+		316A9AEA28365B260056AA33 /* CBTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316A9AE628365B260056AA33 /* CBTabBarButton.swift */; };
+		317303A9283E56CC00CA26CF /* PremiumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317303A8283E56CC00CA26CF /* PremiumVC.swift */; };
+		317303AB283E624300CA26CF /* SuggestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317303AA283E624300CA26CF /* SuggestVC.swift */; };
+		317303AF283E642000CA26CF /* ConfirmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317303AE283E642000CA26CF /* ConfirmVC.swift */; };
+		31A34273283B55C100FC1A0E /* FriendProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A34272283B55C100FC1A0E /* FriendProfileVC.swift */; };
+		31A34275283B579000FC1A0E /* FriendActivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A34274283B579000FC1A0E /* FriendActivityVC.swift */; };
+		31A34277283B57C400FC1A0E /* FriendFollowerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A34276283B57C400FC1A0E /* FriendFollowerVC.swift */; };
+		31A34279283B57DC00FC1A0E /* FriendFollowingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A34278283B57DC00FC1A0E /* FriendFollowingVC.swift */; };
+		31AB0D58283F5D2900F216CA /* StatusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AB0D57283F5D2900F216CA /* StatusVC.swift */; };
+		31B2C2C9284482E700B6FCB6 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B2C2C8284482E700B6FCB6 /* Filter.swift */; };
+		31C278DB283CA06700DB54F8 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C278DA283CA06700DB54F8 /* GameVC.swift */; };
+		31C278DD283CAA4400DB54F8 /* BackLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C278DC283CAA4400DB54F8 /* BackLogVC.swift */; };
+		31C278DF283CB02C00DB54F8 /* PopupAddBacklogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C278DE283CB02C00DB54F8 /* PopupAddBacklogVC.swift */; };
+		31C278E1283CBA1200DB54F8 /* XboxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C278E0283CBA1200DB54F8 /* XboxVC.swift */; };
+		31D399FF2840F52C00101EBC /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D399FE2840F52C00101EBC /* SearchVC.swift */; };
+		31F2FC5D2838B8C600D76BFE /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F2FC5C2838B8C600D76BFE /* SettingVC.swift */; };
+		31FDE3BF283B4A5900C7ED04 /* GameInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FDE3BE283B4A5900C7ED04 /* GameInfoVC.swift */; };
+		A3F0AB66474C326C81296E58 /* Pods_Playnxt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE87B327534C358EE3753903 /* Pods_Playnxt.framework */; };
+		E310DE7F285C4A87004670EF /* CommunityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E310DE7E285C4A87004670EF /* CommunityVC.swift */; };
+		E310DE81285C4A9B004670EF /* FriendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E310DE80285C4A9B004670EF /* FriendsVC.swift */; };
+		E31557C5288528810060ED92 /* CardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31557C4288528810060ED92 /* CardVC.swift */; };
+		E324265B2872D00400EBB831 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E324265A2872D00400EBB831 /* BaseViewController.swift */; };
+		E32709162941BC2D0078B6CF /* PrivacyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32709152941BC2D0078B6CF /* PrivacyWebView.swift */; };
+		E3390337288A69520098833E /* ChatWebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3390336288A69520098833E /* ChatWebViewVC.swift */; };
+		E346948A291E56FB0068AA43 /* StaffPicksViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3469489291E56FA0068AA43 /* StaffPicksViewVC.swift */; };
+		E363948828857306000B5DED /* PlaynxtCurrentPlanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E363948728857306000B5DED /* PlaynxtCurrentPlanVC.swift */; };
+		E372894E2850645D007E1429 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E372894D2850645D007E1429 /* HomeModel.swift */; };
+		E3728950285064B0007E1429 /* StaffModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E372894F285064B0007E1429 /* StaffModelData.swift */; };
+		E3728952285064BF007E1429 /* GamesModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3728951285064BF007E1429 /* GamesModelData.swift */; };
+		E3728954285064CE007E1429 /* ActivityModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3728953285064CE007E1429 /* ActivityModelData.swift */; };
+		E3728956285064DC007E1429 /* InboxModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3728955285064DC007E1429 /* InboxModelData.swift */; };
+		E382AE5E28D47853005D287E /* OnboardingVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E382AE5D28D47853005D287E /* OnboardingVc.swift */; };
+		E388D239288297C80083BA3A /* AddCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E388D238288297C80083BA3A /* AddCardVC.swift */; };
+		E38D8493287ECD7C00E24B9B /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38D8492287ECD7C00E24B9B /* ForgotPasswordVC.swift */; };
+		E38E7038284F341F00DF921E /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38E7037284F341F00DF921E /* Singleton.swift */; };
+		E391E60728F6E7EC0066072A /* CancelSubsPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E391E60628F6E7EB0066072A /* CancelSubsPopupVC.swift */; };
+		E3977E3A28D5D4B70014EBAF /* ThankyouPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3977E3928D5D4B70014EBAF /* ThankyouPopupVC.swift */; };
+		E39C22622853185900236AFC /* CategoryListPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39C22612853185900236AFC /* CategoryListPopupVC.swift */; };
+		E3A117682851D0EF0066F904 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A117672851D0EF0066F904 /* ChangePasswordVC.swift */; };
+		E3A43B63284F159400445DDC /* HSLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A43B62284F159400445DDC /* HSLocation.swift */; };
+		E3AA6A652881400800DC3F53 /* PlaynxtPremiumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AA6A642881400800DC3F53 /* PlaynxtPremiumVC.swift */; };
+		E3B6686328605662003698DF /* UserProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B6686228605662003698DF /* UserProfileVC.swift */; };
+		E3B6686528605673003698DF /* UserGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B6686428605673003698DF /* UserGameVC.swift */; };
+		E3B6686728605687003698DF /* UserFollowerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B6686628605687003698DF /* UserFollowerVC.swift */; };
+		E3B6686928605696003698DF /* UserFollowingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B6686828605696003698DF /* UserFollowingVC.swift */; };
+		E3BB56B6286C1968003F3186 /* ContactUsWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BB56B5286C1968003F3186 /* ContactUsWebView.swift */; };
+		E3CAF4F429EFFAEC00F70979 /* CuponPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAF4F329EFFAEC00F70979 /* CuponPopupVC.swift */; };
+		E3CAF4F729EFFC2F00F70979 /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = E3CAF4F629EFFC2E00F70979 /* gif.gif */; };
+		E3D1757129EEA8FB0098165A /* WRCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D1757029EEA8FA0098165A /* WRCustomView.swift */; };
+		E3D1757329EEA99D0098165A /* ApplyCouponVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D1757229EEA99D0098165A /* ApplyCouponVC.swift */; };
+		E3DE043729F28FBF002B7415 /* SearchGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DE043629F28FBF002B7415 /* SearchGameVC.swift */; };
+		E3DE043929F28FD4002B7415 /* SearchUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DE043829F28FD4002B7415 /* SearchUserVC.swift */; };
+		E3DE043B29F28FED002B7415 /* SearchBackLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DE043A29F28FED002B7415 /* SearchBackLogVC.swift */; };
+		E3E69F6E28F54BC00015D112 /* WishlistCreatePopupVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E69F6D28F54BC00015D112 /* WishlistCreatePopupVc.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3103D56328375A8D009B1EE2 /* DiscoverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverVC.swift; sourceTree = "<group>"; };
+		3103D56528375D05009B1EE2 /* Structure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structure.swift; sourceTree = "<group>"; };
+		3103D5672837641B009B1EE2 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		3103DEDA28377A14002558C7 /* ActivityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityVC.swift; sourceTree = "<group>"; };
+		3103DEDC28377EB4002558C7 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		3103DEDE28379113002558C7 /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		3103DEE02837911D002558C7 /* Nunito-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Medium.ttf"; sourceTree = "<group>"; };
+		3103DEE22837A538002558C7 /* InboxVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\U0010InboxVC.swift"; sourceTree = "<group>"; };
+		310ABC0D283D0B6C0009BF37 /* AddEventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventVC.swift; sourceTree = "<group>"; };
+		31232C292849E91000C97472 /* SearchHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHeaderCell.swift; sourceTree = "<group>"; };
+		31232C2A2849E91000C97472 /* SearchHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchHeaderCell.xib; sourceTree = "<group>"; };
+		31233E25283CD66D00895E08 /* XboxGameInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XboxGameInfoVC.swift; sourceTree = "<group>"; };
+		31233E27283CE03600895E08 /* PopupEnterNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupEnterNotes.swift; sourceTree = "<group>"; };
+		31233E29283CE04700895E08 /* PopupSelectStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupSelectStatus.swift; sourceTree = "<group>"; };
+		31233E2B283CEE6100895E08 /* WishlistVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistVC.swift; sourceTree = "<group>"; };
+		31233E2D283CEF0500895E08 /* PopupAddWishlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupAddWishlist.swift; sourceTree = "<group>"; };
+		31233E2F283CEF7F00895E08 /* WishListXboxVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListXboxVC.swift; sourceTree = "<group>"; };
+		31233E31283CF59200895E08 /* CalenderViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewVC.swift; sourceTree = "<group>"; };
+		312D80432838FC3B004C127E /* AddGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGameVC.swift; sourceTree = "<group>"; };
+		313E5080283DFAE800248FD3 /* PopupImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupImageVC.swift; sourceTree = "<group>"; };
+		315594152846148700EDFDCE /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		31559417284614D400EDFDCE /* TokenClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenClass.swift; sourceTree = "<group>"; };
+		3155941928461EA400EDFDCE /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		3155941B284621AF00EDFDCE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		315A4A6C2838D0CD00143B5A /* SurveyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyVC.swift; sourceTree = "<group>"; };
+		315A4A6E2838E5C900143B5A /* EditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditVC.swift; sourceTree = "<group>"; };
+		316A9AA9283619D60056AA33 /* Playnxt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playnxt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		316A9AAC283619D60056AA33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		316A9AAE283619D60056AA33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		316A9AB0283619D60056AA33 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		316A9AB3283619D60056AA33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		316A9AB5283619DD0056AA33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		316A9AB8283619DD0056AA33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		316A9ABA283619DD0056AA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		316A9AC42836288E0056AA33 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		316A9AC52836288E0056AA33 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		316A9AC62836288E0056AA33 /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		316A9ACD283629E60056AA33 /* Designable .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Designable .swift"; sourceTree = "<group>"; };
+		316A9AD128362F7A0056AA33 /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		316A9AD328363E8C0056AA33 /* BentonSans Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BentonSans Regular.otf"; sourceTree = "<group>"; };
+		316A9AD6283655AC0056AA33 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		316A9AD8283655D20056AA33 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		316A9AE028365AE80056AA33 /* Tab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tab.storyboard; sourceTree = "<group>"; };
+		316A9AE328365B260056AA33 /* BubbleTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleTabBar.swift; sourceTree = "<group>"; };
+		316A9AE428365B260056AA33 /* BubbleTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleTabBarController.swift; sourceTree = "<group>"; };
+		316A9AE528365B260056AA33 /* BubbleSecondTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleSecondTabBarController.swift; sourceTree = "<group>"; };
+		316A9AE628365B260056AA33 /* CBTabBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBTabBarButton.swift; sourceTree = "<group>"; };
+		317303A8283E56CC00CA26CF /* PremiumVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumVC.swift; sourceTree = "<group>"; };
+		317303AA283E624300CA26CF /* SuggestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestVC.swift; sourceTree = "<group>"; };
+		317303AE283E642000CA26CF /* ConfirmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmVC.swift; sourceTree = "<group>"; };
+		31A34272283B55C100FC1A0E /* FriendProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendProfileVC.swift; sourceTree = "<group>"; };
+		31A34274283B579000FC1A0E /* FriendActivityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendActivityVC.swift; sourceTree = "<group>"; };
+		31A34276283B57C400FC1A0E /* FriendFollowerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendFollowerVC.swift; sourceTree = "<group>"; };
+		31A34278283B57DC00FC1A0E /* FriendFollowingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendFollowingVC.swift; sourceTree = "<group>"; };
+		31AB0D57283F5D2900F216CA /* StatusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusVC.swift; sourceTree = "<group>"; };
+		31B2C2C8284482E700B6FCB6 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		31C278DA283CA06700DB54F8 /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
+		31C278DC283CAA4400DB54F8 /* BackLogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackLogVC.swift; sourceTree = "<group>"; };
+		31C278DE283CB02C00DB54F8 /* PopupAddBacklogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupAddBacklogVC.swift; sourceTree = "<group>"; };
+		31C278E0283CBA1200DB54F8 /* XboxVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XboxVC.swift; sourceTree = "<group>"; };
+		31D399FE2840F52C00101EBC /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		31F2FC5C2838B8C600D76BFE /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		31FDE3BE283B4A5900C7ED04 /* GameInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInfoVC.swift; sourceTree = "<group>"; };
+		AE87B327534C358EE3753903 /* Pods_Playnxt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Playnxt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D16AF0480DD5A08CFAF9DFE2 /* Pods-Playnxt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Playnxt.debug.xcconfig"; path = "Target Support Files/Pods-Playnxt/Pods-Playnxt.debug.xcconfig"; sourceTree = "<group>"; };
+		E310DE7E285C4A87004670EF /* CommunityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityVC.swift; sourceTree = "<group>"; };
+		E310DE80285C4A9B004670EF /* FriendsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsVC.swift; sourceTree = "<group>"; };
+		E31557C4288528810060ED92 /* CardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardVC.swift; sourceTree = "<group>"; };
+		E324265A2872D00400EBB831 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E32709152941BC2D0078B6CF /* PrivacyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyWebView.swift; sourceTree = "<group>"; };
+		E3390336288A69520098833E /* ChatWebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatWebViewVC.swift; sourceTree = "<group>"; };
+		E3469489291E56FA0068AA43 /* StaffPicksViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffPicksViewVC.swift; sourceTree = "<group>"; };
+		E363948728857306000B5DED /* PlaynxtCurrentPlanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaynxtCurrentPlanVC.swift; sourceTree = "<group>"; };
+		E372894D2850645D007E1429 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		E372894F285064B0007E1429 /* StaffModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffModelData.swift; sourceTree = "<group>"; };
+		E3728951285064BF007E1429 /* GamesModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesModelData.swift; sourceTree = "<group>"; };
+		E3728953285064CE007E1429 /* ActivityModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityModelData.swift; sourceTree = "<group>"; };
+		E3728955285064DC007E1429 /* InboxModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxModelData.swift; sourceTree = "<group>"; };
+		E382AE5D28D47853005D287E /* OnboardingVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVc.swift; sourceTree = "<group>"; };
+		E388D238288297C80083BA3A /* AddCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardVC.swift; sourceTree = "<group>"; };
+		E38D8492287ECD7C00E24B9B /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		E38E7037284F341F00DF921E /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		E391E60628F6E7EB0066072A /* CancelSubsPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelSubsPopupVC.swift; sourceTree = "<group>"; };
+		E3977E3928D5D4B70014EBAF /* ThankyouPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankyouPopupVC.swift; sourceTree = "<group>"; };
+		E39C22612853185900236AFC /* CategoryListPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListPopupVC.swift; sourceTree = "<group>"; };
+		E3A117672851D0EF0066F904 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		E3A43B62284F159400445DDC /* HSLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSLocation.swift; sourceTree = "<group>"; };
+		E3AA6A642881400800DC3F53 /* PlaynxtPremiumVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaynxtPremiumVC.swift; sourceTree = "<group>"; };
+		E3B6686228605662003698DF /* UserProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileVC.swift; sourceTree = "<group>"; };
+		E3B6686428605673003698DF /* UserGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGameVC.swift; sourceTree = "<group>"; };
+		E3B6686628605687003698DF /* UserFollowerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFollowerVC.swift; sourceTree = "<group>"; };
+		E3B6686828605696003698DF /* UserFollowingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFollowingVC.swift; sourceTree = "<group>"; };
+		E3BB56B5286C1968003F3186 /* ContactUsWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsWebView.swift; sourceTree = "<group>"; };
+		E3CAF4F329EFFAEC00F70979 /* CuponPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuponPopupVC.swift; sourceTree = "<group>"; };
+		E3CAF4F629EFFC2E00F70979 /* gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif.gif; sourceTree = "<group>"; };
+		E3D1757029EEA8FA0098165A /* WRCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCustomView.swift; sourceTree = "<group>"; };
+		E3D1757229EEA99D0098165A /* ApplyCouponVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyCouponVC.swift; sourceTree = "<group>"; };
+		E3DE043629F28FBF002B7415 /* SearchGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGameVC.swift; sourceTree = "<group>"; };
+		E3DE043829F28FD4002B7415 /* SearchUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserVC.swift; sourceTree = "<group>"; };
+		E3DE043A29F28FED002B7415 /* SearchBackLogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBackLogVC.swift; sourceTree = "<group>"; };
+		E3E69F6D28F54BC00015D112 /* WishlistCreatePopupVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistCreatePopupVc.swift; sourceTree = "<group>"; };
+		F2DB7252F61083BFC0ABCBC1 /* Pods-Playnxt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Playnxt.release.xcconfig"; path = "Target Support Files/Pods-Playnxt/Pods-Playnxt.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		316A9AA6283619D60056AA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F0AB66474C326C81296E58 /* Pods_Playnxt.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3158316E2837540800D9EE22 /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				315B23F22837C91000F32DB0 /* HomeTabControllers */,
+				315B23F32837C92600F32DB0 /* DiscoverTabControllers */,
+				315B23F42837C93F00F32DB0 /* ActivityTabControllers */,
+				315B23F52837C94E00F32DB0 /* InboxTabControllers */,
+				31C278D9283CA04800DB54F8 /* GameTabController */,
+				316A9AE228365B260056AA33 /* BubbleTabbar */,
+			);
+			path = TabBarControllers;
+			sourceTree = "<group>";
+		};
+		315B23F22837C91000F32DB0 /* HomeTabControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3103D5672837641B009B1EE2 /* HomeVC.swift */,
+				31D399FE2840F52C00101EBC /* SearchVC.swift */,
+				E3DE043629F28FBF002B7415 /* SearchGameVC.swift */,
+				E3DE043829F28FD4002B7415 /* SearchUserVC.swift */,
+				E3DE043A29F28FED002B7415 /* SearchBackLogVC.swift */,
+				E3390336288A69520098833E /* ChatWebViewVC.swift */,
+				31232C292849E91000C97472 /* SearchHeaderCell.swift */,
+				31232C2A2849E91000C97472 /* SearchHeaderCell.xib */,
+			);
+			path = HomeTabControllers;
+			sourceTree = "<group>";
+		};
+		315B23F32837C92600F32DB0 /* DiscoverTabControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3103D56328375A8D009B1EE2 /* DiscoverVC.swift */,
+				E3469489291E56FA0068AA43 /* StaffPicksViewVC.swift */,
+				31FDE3BE283B4A5900C7ED04 /* GameInfoVC.swift */,
+				312D80432838FC3B004C127E /* AddGameVC.swift */,
+				E39C22612853185900236AFC /* CategoryListPopupVC.swift */,
+				E3E69F6D28F54BC00015D112 /* WishlistCreatePopupVc.swift */,
+			);
+			path = DiscoverTabControllers;
+			sourceTree = "<group>";
+		};
+		315B23F42837C93F00F32DB0 /* ActivityTabControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3103DEDA28377A14002558C7 /* ActivityVC.swift */,
+				E310DE7E285C4A87004670EF /* CommunityVC.swift */,
+				E310DE80285C4A9B004670EF /* FriendsVC.swift */,
+				31A34272283B55C100FC1A0E /* FriendProfileVC.swift */,
+				31A34274283B579000FC1A0E /* FriendActivityVC.swift */,
+				31A34276283B57C400FC1A0E /* FriendFollowerVC.swift */,
+				31A34278283B57DC00FC1A0E /* FriendFollowingVC.swift */,
+			);
+			path = ActivityTabControllers;
+			sourceTree = "<group>";
+		};
+		315B23F52837C94E00F32DB0 /* InboxTabControllers */ = {
+			isa = PBXGroup;
+			children = (
+				31F2FC5E2838BA5200D76BFE /* Inbox */,
+				31F2FC5B2838B8A800D76BFE /* SettingControllers */,
+			);
+			path = InboxTabControllers;
+			sourceTree = "<group>";
+		};
+		316A9AA0283619D50056AA33 = {
+			isa = PBXGroup;
+			children = (
+				316A9AAB283619D60056AA33 /* Playnxt */,
+				316A9AB5283619DD0056AA33 /* Assets.xcassets */,
+				316A9AAA283619D60056AA33 /* Products */,
+				3E1BFBADB26DC0567646D662 /* Pods */,
+				415189FE0B8DA01DE346BD71 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		316A9AAA283619D60056AA33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				316A9AA9283619D60056AA33 /* Playnxt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		316A9AAB283619D60056AA33 /* Playnxt */ = {
+			isa = PBXGroup;
+			children = (
+				E3CAF4F529EFFBF300F70979 /* GIF */,
+				E3A43B61284F10C300445DDC /* Model Class */,
+				316A9AC128361BF60056AA33 /* AppManager */,
+				316A9AC3283628300056AA33 /* Fonts */,
+				316A9AC228361C0D0056AA33 /* Controllers */,
+				316A9AC028361BDD0056AA33 /* StoryBoard */,
+				316A9ACA283629900056AA33 /* HelperFiles */,
+				316A9ABA283619DD0056AA33 /* Info.plist */,
+			);
+			path = Playnxt;
+			sourceTree = "<group>";
+		};
+		316A9AC028361BDD0056AA33 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				316A9AB7283619DD0056AA33 /* LaunchScreen.storyboard */,
+				316A9AB2283619D60056AA33 /* Main.storyboard */,
+				316A9AE028365AE80056AA33 /* Tab.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		316A9AC128361BF60056AA33 /* AppManager */ = {
+			isa = PBXGroup;
+			children = (
+				316A9AAC283619D60056AA33 /* AppDelegate.swift */,
+				316A9AAE283619D60056AA33 /* SceneDelegate.swift */,
+			);
+			path = AppManager;
+			sourceTree = "<group>";
+		};
+		316A9AC228361C0D0056AA33 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				316A9AD52836558B0056AA33 /* LoginControllers */,
+				3158316E2837540800D9EE22 /* TabBarControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		316A9AC3283628300056AA33 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3103DEDE28379113002558C7 /* Nunito-SemiBold.ttf */,
+				316A9AD328363E8C0056AA33 /* BentonSans Regular.otf */,
+				316A9AD128362F7A0056AA33 /* Nunito-ExtraBold.ttf */,
+				316A9AC42836288E0056AA33 /* Nunito-Bold.ttf */,
+				3103DEE02837911D002558C7 /* Nunito-Medium.ttf */,
+				316A9AC62836288E0056AA33 /* Nunito-Light.ttf */,
+				316A9AC52836288E0056AA33 /* Nunito-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		316A9ACA283629900056AA33 /* HelperFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E3D1757029EEA8FA0098165A /* WRCustomView.swift */,
+				E324265A2872D00400EBB831 /* BaseViewController.swift */,
+				E3A43B62284F159400445DDC /* HSLocation.swift */,
+				316A9ACD283629E60056AA33 /* Designable .swift */,
+				3103DEDC28377EB4002558C7 /* Extension.swift */,
+				315594152846148700EDFDCE /* SessionManager.swift */,
+				3103D56528375D05009B1EE2 /* Structure.swift */,
+				31559417284614D400EDFDCE /* TokenClass.swift */,
+				3155941928461EA400EDFDCE /* Constant.swift */,
+				E38E7037284F341F00DF921E /* Singleton.swift */,
+			);
+			path = HelperFiles;
+			sourceTree = "<group>";
+		};
+		316A9AD52836558B0056AA33 /* LoginControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E382AE5828D475F6005D287E /* OnboardingScreens */,
+				316A9AB0283619D60056AA33 /* BaseVC.swift */,
+				316A9AD8283655D20056AA33 /* SignupVC.swift */,
+				316A9AD6283655AC0056AA33 /* LoginVC.swift */,
+				E38D8492287ECD7C00E24B9B /* ForgotPasswordVC.swift */,
+			);
+			path = LoginControllers;
+			sourceTree = "<group>";
+		};
+		316A9AE228365B260056AA33 /* BubbleTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				316A9AE328365B260056AA33 /* BubbleTabBar.swift */,
+				316A9AE428365B260056AA33 /* BubbleTabBarController.swift */,
+				316A9AE528365B260056AA33 /* BubbleSecondTabBarController.swift */,
+				316A9AE628365B260056AA33 /* CBTabBarButton.swift */,
+			);
+			path = BubbleTabbar;
+			sourceTree = "<group>";
+		};
+		31C278D9283CA04800DB54F8 /* GameTabController */ = {
+			isa = PBXGroup;
+			children = (
+				31C278DA283CA06700DB54F8 /* GameVC.swift */,
+				31C278DC283CAA4400DB54F8 /* BackLogVC.swift */,
+				31C278DE283CB02C00DB54F8 /* PopupAddBacklogVC.swift */,
+				31C278E0283CBA1200DB54F8 /* XboxVC.swift */,
+				31233E25283CD66D00895E08 /* XboxGameInfoVC.swift */,
+				31233E27283CE03600895E08 /* PopupEnterNotes.swift */,
+				31233E29283CE04700895E08 /* PopupSelectStatus.swift */,
+				31233E2B283CEE6100895E08 /* WishlistVC.swift */,
+				31233E2D283CEF0500895E08 /* PopupAddWishlist.swift */,
+				31233E2F283CEF7F00895E08 /* WishListXboxVC.swift */,
+				31233E31283CF59200895E08 /* CalenderViewVC.swift */,
+				310ABC0D283D0B6C0009BF37 /* AddEventVC.swift */,
+				31AB0D57283F5D2900F216CA /* StatusVC.swift */,
+				31B2C2C8284482E700B6FCB6 /* Filter.swift */,
+				E3AA6A642881400800DC3F53 /* PlaynxtPremiumVC.swift */,
+				E3D1757229EEA99D0098165A /* ApplyCouponVC.swift */,
+				E3CAF4F329EFFAEC00F70979 /* CuponPopupVC.swift */,
+				E31557C4288528810060ED92 /* CardVC.swift */,
+				E388D238288297C80083BA3A /* AddCardVC.swift */,
+			);
+			path = GameTabController;
+			sourceTree = "<group>";
+		};
+		31F2FC5B2838B8A800D76BFE /* SettingControllers */ = {
+			isa = PBXGroup;
+			children = (
+				31F2FC5C2838B8C600D76BFE /* SettingVC.swift */,
+				315A4A6E2838E5C900143B5A /* EditVC.swift */,
+				315A4A6C2838D0CD00143B5A /* SurveyVC.swift */,
+				313E5080283DFAE800248FD3 /* PopupImageVC.swift */,
+				317303A8283E56CC00CA26CF /* PremiumVC.swift */,
+				317303AA283E624300CA26CF /* SuggestVC.swift */,
+				317303AE283E642000CA26CF /* ConfirmVC.swift */,
+				E3A117672851D0EF0066F904 /* ChangePasswordVC.swift */,
+				E3BB56B5286C1968003F3186 /* ContactUsWebView.swift */,
+				E363948728857306000B5DED /* PlaynxtCurrentPlanVC.swift */,
+				E391E60628F6E7EB0066072A /* CancelSubsPopupVC.swift */,
+				E3977E3928D5D4B70014EBAF /* ThankyouPopupVC.swift */,
+				E32709152941BC2D0078B6CF /* PrivacyWebView.swift */,
+			);
+			path = SettingControllers;
+			sourceTree = "<group>";
+		};
+		31F2FC5E2838BA5200D76BFE /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				3103DEE22837A538002558C7 /* InboxVC.swift */,
+				E3B6686228605662003698DF /* UserProfileVC.swift */,
+				E3B6686428605673003698DF /* UserGameVC.swift */,
+				E3B6686628605687003698DF /* UserFollowerVC.swift */,
+				E3B6686828605696003698DF /* UserFollowingVC.swift */,
+			);
+			path = Inbox;
+			sourceTree = "<group>";
+		};
+		3E1BFBADB26DC0567646D662 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D16AF0480DD5A08CFAF9DFE2 /* Pods-Playnxt.debug.xcconfig */,
+				F2DB7252F61083BFC0ABCBC1 /* Pods-Playnxt.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		415189FE0B8DA01DE346BD71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE87B327534C358EE3753903 /* Pods_Playnxt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3728947285063B4007E1429 /* HomeTabModel */ = {
+			isa = PBXGroup;
+			children = (
+				E372894D2850645D007E1429 /* HomeModel.swift */,
+			);
+			path = HomeTabModel;
+			sourceTree = "<group>";
+		};
+		E3728948285063C1007E1429 /* StaffpickTabModel */ = {
+			isa = PBXGroup;
+			children = (
+				E372894F285064B0007E1429 /* StaffModelData.swift */,
+			);
+			path = StaffpickTabModel;
+			sourceTree = "<group>";
+		};
+		E3728949285063FD007E1429 /* GamesTabModel */ = {
+			isa = PBXGroup;
+			children = (
+				E3728951285064BF007E1429 /* GamesModelData.swift */,
+			);
+			path = GamesTabModel;
+			sourceTree = "<group>";
+		};
+		E372894A28506412007E1429 /* ActivityTabModel */ = {
+			isa = PBXGroup;
+			children = (
+				E3728953285064CE007E1429 /* ActivityModelData.swift */,
+			);
+			path = ActivityTabModel;
+			sourceTree = "<group>";
+		};
+		E372894B28506423007E1429 /* InboxTabModel */ = {
+			isa = PBXGroup;
+			children = (
+				E3728955285064DC007E1429 /* InboxModelData.swift */,
+			);
+			path = InboxTabModel;
+			sourceTree = "<group>";
+		};
+		E372894C2850643F007E1429 /* LoginSignupModel */ = {
+			isa = PBXGroup;
+			children = (
+				3155941B284621AF00EDFDCE /* Model.swift */,
+			);
+			path = LoginSignupModel;
+			sourceTree = "<group>";
+		};
+		E382AE5828D475F6005D287E /* OnboardingScreens */ = {
+			isa = PBXGroup;
+			children = (
+				E382AE5D28D47853005D287E /* OnboardingVc.swift */,
+			);
+			path = OnboardingScreens;
+			sourceTree = "<group>";
+		};
+		E3A43B61284F10C300445DDC /* Model Class */ = {
+			isa = PBXGroup;
+			children = (
+				E372894C2850643F007E1429 /* LoginSignupModel */,
+				E3728947285063B4007E1429 /* HomeTabModel */,
+				E3728948285063C1007E1429 /* StaffpickTabModel */,
+				E3728949285063FD007E1429 /* GamesTabModel */,
+				E372894A28506412007E1429 /* ActivityTabModel */,
+				E372894B28506423007E1429 /* InboxTabModel */,
+			);
+			path = "Model Class";
+			sourceTree = "<group>";
+		};
+		E3CAF4F529EFFBF300F70979 /* GIF */ = {
+			isa = PBXGroup;
+			children = (
+				E3CAF4F629EFFC2E00F70979 /* gif.gif */,
+			);
+			path = GIF;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		316A9AA8283619D60056AA33 /* Playnxt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 316A9ABD283619DD0056AA33 /* Build configuration list for PBXNativeTarget "Playnxt" */;
+			buildPhases = (
+				4DA35F17074698E105C4DE4B /* [CP] Check Pods Manifest.lock */,
+				316A9AA5283619D60056AA33 /* Sources */,
+				316A9AA6283619D60056AA33 /* Frameworks */,
+				316A9AA7283619D60056AA33 /* Resources */,
+				0E4EF49115F187C545EB0AC1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Playnxt;
+			productName = Playnxt;
+			productReference = 316A9AA9283619D60056AA33 /* Playnxt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		316A9AA1283619D50056AA33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					316A9AA8283619D60056AA33 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 316A9AA4283619D50056AA33 /* Build configuration list for PBXProject "Playnxt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 316A9AA0283619D50056AA33;
+			productRefGroup = 316A9AAA283619D60056AA33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				316A9AA8283619D60056AA33 /* Playnxt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		316A9AA7283619D60056AA33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				316A9AC82836288E0056AA33 /* Nunito-Regular.ttf in Resources */,
+				3103DEE12837911D002558C7 /* Nunito-Medium.ttf in Resources */,
+				316A9AE128365AE80056AA33 /* Tab.storyboard in Resources */,
+				316A9AB9283619DD0056AA33 /* LaunchScreen.storyboard in Resources */,
+				316A9AD428363E8C0056AA33 /* BentonSans Regular.otf in Resources */,
+				3103DEDF28379114002558C7 /* Nunito-SemiBold.ttf in Resources */,
+				316A9AC92836288E0056AA33 /* Nunito-Light.ttf in Resources */,
+				316A9AB6283619DD0056AA33 /* Assets.xcassets in Resources */,
+				E3CAF4F729EFFC2F00F70979 /* gif.gif in Resources */,
+				31232C2C2849E91000C97472 /* SearchHeaderCell.xib in Resources */,
+				316A9AC72836288E0056AA33 /* Nunito-Bold.ttf in Resources */,
+				316A9AB4283619D60056AA33 /* Main.storyboard in Resources */,
+				316A9AD228362F7A0056AA33 /* Nunito-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E4EF49115F187C545EB0AC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Playnxt/Pods-Playnxt-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Playnxt/Pods-Playnxt-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Playnxt/Pods-Playnxt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DA35F17074698E105C4DE4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Playnxt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		316A9AA5283619D60056AA33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3977E3A28D5D4B70014EBAF /* ThankyouPopupVC.swift in Sources */,
+				31233E2A283CE04700895E08 /* PopupSelectStatus.swift in Sources */,
+				E3DE043B29F28FED002B7415 /* SearchBackLogVC.swift in Sources */,
+				E3CAF4F429EFFAEC00F70979 /* CuponPopupVC.swift in Sources */,
+				E3728954285064CE007E1429 /* ActivityModelData.swift in Sources */,
+				31F2FC5D2838B8C600D76BFE /* SettingVC.swift in Sources */,
+				31C278E1283CBA1200DB54F8 /* XboxVC.swift in Sources */,
+				E363948828857306000B5DED /* PlaynxtCurrentPlanVC.swift in Sources */,
+				31D399FF2840F52C00101EBC /* SearchVC.swift in Sources */,
+				E324265B2872D00400EBB831 /* BaseViewController.swift in Sources */,
+				316A9AD9283655D20056AA33 /* SignupVC.swift in Sources */,
+				3103D56428375A8D009B1EE2 /* DiscoverVC.swift in Sources */,
+				E38D8493287ECD7C00E24B9B /* ForgotPasswordVC.swift in Sources */,
+				E3E69F6E28F54BC00015D112 /* WishlistCreatePopupVc.swift in Sources */,
+				3103DEDB28377A14002558C7 /* ActivityVC.swift in Sources */,
+				3103D56628375D05009B1EE2 /* Structure.swift in Sources */,
+				310ABC0E283D0B6C0009BF37 /* AddEventVC.swift in Sources */,
+				316A9AB1283619D60056AA33 /* BaseVC.swift in Sources */,
+				E3390337288A69520098833E /* ChatWebViewVC.swift in Sources */,
+				31233E30283CEF7F00895E08 /* WishListXboxVC.swift in Sources */,
+				E3BB56B6286C1968003F3186 /* ContactUsWebView.swift in Sources */,
+				31AB0D58283F5D2900F216CA /* StatusVC.swift in Sources */,
+				31233E2E283CEF0500895E08 /* PopupAddWishlist.swift in Sources */,
+				E310DE81285C4A9B004670EF /* FriendsVC.swift in Sources */,
+				31B2C2C9284482E700B6FCB6 /* Filter.swift in Sources */,
+				316A9AAD283619D60056AA33 /* AppDelegate.swift in Sources */,
+				31A34275283B579000FC1A0E /* FriendActivityVC.swift in Sources */,
+				31C278DB283CA06700DB54F8 /* GameVC.swift in Sources */,
+				E3A117682851D0EF0066F904 /* ChangePasswordVC.swift in Sources */,
+				316A9AE728365B260056AA33 /* BubbleTabBar.swift in Sources */,
+				31559418284614D500EDFDCE /* TokenClass.swift in Sources */,
+				3155941C284621AF00EDFDCE /* Model.swift in Sources */,
+				E3B6686328605662003698DF /* UserProfileVC.swift in Sources */,
+				3103DEE32837A538002558C7 /* InboxVC.swift in Sources */,
+				31233E26283CD66D00895E08 /* XboxGameInfoVC.swift in Sources */,
+				E3D1757329EEA99D0098165A /* ApplyCouponVC.swift in Sources */,
+				315594162846148700EDFDCE /* SessionManager.swift in Sources */,
+				31FDE3BF283B4A5900C7ED04 /* GameInfoVC.swift in Sources */,
+				316A9AE828365B260056AA33 /* BubbleTabBarController.swift in Sources */,
+				E3B6686928605696003698DF /* UserFollowingVC.swift in Sources */,
+				E3728956285064DC007E1429 /* InboxModelData.swift in Sources */,
+				E391E60728F6E7EC0066072A /* CancelSubsPopupVC.swift in Sources */,
+				316A9AE928365B260056AA33 /* BubbleSecondTabBarController.swift in Sources */,
+				E3DE043729F28FBF002B7415 /* SearchGameVC.swift in Sources */,
+				3103DEDD28377EB4002558C7 /* Extension.swift in Sources */,
+				316A9ACE283629E60056AA33 /* Designable .swift in Sources */,
+				E3D1757129EEA8FB0098165A /* WRCustomView.swift in Sources */,
+				E38E7038284F341F00DF921E /* Singleton.swift in Sources */,
+				312D80442838FC3B004C127E /* AddGameVC.swift in Sources */,
+				E32709162941BC2D0078B6CF /* PrivacyWebView.swift in Sources */,
+				31233E28283CE03600895E08 /* PopupEnterNotes.swift in Sources */,
+				3103D5682837641B009B1EE2 /* HomeVC.swift in Sources */,
+				316A9AEA28365B260056AA33 /* CBTabBarButton.swift in Sources */,
+				31233E2C283CEE6100895E08 /* WishlistVC.swift in Sources */,
+				E3B6686528605673003698DF /* UserGameVC.swift in Sources */,
+				31A34279283B57DC00FC1A0E /* FriendFollowingVC.swift in Sources */,
+				E3728952285064BF007E1429 /* GamesModelData.swift in Sources */,
+				E39C22622853185900236AFC /* CategoryListPopupVC.swift in Sources */,
+				317303A9283E56CC00CA26CF /* PremiumVC.swift in Sources */,
+				E3728950285064B0007E1429 /* StaffModelData.swift in Sources */,
+				31A34273283B55C100FC1A0E /* FriendProfileVC.swift in Sources */,
+				E388D239288297C80083BA3A /* AddCardVC.swift in Sources */,
+				3155941A28461EA400EDFDCE /* Constant.swift in Sources */,
+				E346948A291E56FB0068AA43 /* StaffPicksViewVC.swift in Sources */,
+				317303AF283E642000CA26CF /* ConfirmVC.swift in Sources */,
+				E310DE7F285C4A87004670EF /* CommunityVC.swift in Sources */,
+				315A4A6F2838E5C900143B5A /* EditVC.swift in Sources */,
+				E3DE043929F28FD4002B7415 /* SearchUserVC.swift in Sources */,
+				E3A43B63284F159400445DDC /* HSLocation.swift in Sources */,
+				31C278DF283CB02C00DB54F8 /* PopupAddBacklogVC.swift in Sources */,
+				313E5081283DFAE800248FD3 /* PopupImageVC.swift in Sources */,
+				315A4A6D2838D0CD00143B5A /* SurveyVC.swift in Sources */,
+				E31557C5288528810060ED92 /* CardVC.swift in Sources */,
+				31232C2B2849E91000C97472 /* SearchHeaderCell.swift in Sources */,
+				E382AE5E28D47853005D287E /* OnboardingVc.swift in Sources */,
+				31233E32283CF59200895E08 /* CalenderViewVC.swift in Sources */,
+				317303AB283E624300CA26CF /* SuggestVC.swift in Sources */,
+				31A34277283B57C400FC1A0E /* FriendFollowerVC.swift in Sources */,
+				E3AA6A652881400800DC3F53 /* PlaynxtPremiumVC.swift in Sources */,
+				316A9AAF283619D60056AA33 /* SceneDelegate.swift in Sources */,
+				E372894E2850645D007E1429 /* HomeModel.swift in Sources */,
+				316A9AD7283655AC0056AA33 /* LoginVC.swift in Sources */,
+				31C278DD283CAA4400DB54F8 /* BackLogVC.swift in Sources */,
+				E3B6686728605687003698DF /* UserFollowerVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		316A9AB2283619D60056AA33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				316A9AB3283619D60056AA33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		316A9AB7283619DD0056AA33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				316A9AB8283619DD0056AA33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		316A9ABB283619DD0056AA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		316A9ABC283619DD0056AA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		316A9ABE283619DD0056AA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D16AF0480DD5A08CFAF9DFE2 /* Pods-Playnxt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F99B3HMMWJ;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Playnxt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudwapp.Playnxt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = playnxt_devlopment;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		316A9ABF283619DD0056AA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2DB7252F61083BFC0ABCBC1 /* Pods-Playnxt.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F99B3HMMWJ;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Playnxt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudwapp.Playnxt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = playnxt_distribution;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		316A9AA4283619D50056AA33 /* Build configuration list for PBXProject "Playnxt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				316A9ABB283619DD0056AA33 /* Debug */,
+				316A9ABC283619DD0056AA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		316A9ABD283619DD0056AA33 /* Build configuration list for PBXNativeTarget "Playnxt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				316A9ABE283619DD0056AA33 /* Debug */,
+				316A9ABF283619DD0056AA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 316A9AA1283619D50056AA33 /* Project object */;
+}
